@@ -3,3 +3,63 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+html {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+button {
+    color: white;
+    background-color: #805215;
+    border-style: solid;
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #ffdbaa;
+    white-space: nowrap;
+    text-align: left;
+    color: #553100;
+}
+header > h1 {
+    display:inline-block;
+    width: 50%;
+
+}
+header > ul {
+    display: inline-block;
+    width: 50%;
+
+}
+header > ul > li {
+    display: inline-block;
+    width: 25%;
+}
+
+.content {
+    width: 100%;
+    margin: auto;
+    background-color: #d4a76a;
+}
+
+.flight-info {
+    height: 200px;
+}
+.flight-info > article {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    display: inline-block;
+    width: 25%;
+    border-style: outset;
+}
+
+footer {
+    margin:auto;
+    margin-bottom: 10px;
+    width: 95%;
+    height: 95%;
+    background-color: white;
+    border-style: outset;
+}
